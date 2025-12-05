@@ -26,6 +26,6 @@ function palindroma(parola) {
   if (palindroma(parolaUtente)) {
         console.log("La parola è palindroma!");
     } else {
-        console.log("La parola NON è palindroma.");
+        console.log("La parola non è palindroma.");
     }
 
