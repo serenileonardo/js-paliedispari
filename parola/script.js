@@ -12,7 +12,7 @@ Creare una funzione per capire se la parola inserita è palindroma
 
 const parolaUtente = prompt("Inserisci una parola: ");
 
-function palindroma(parola) {
+function Ispalindroma(parola) {
 
     const parolaInvertita = parola.split("").reverse().join("");
 
@@ -23,7 +23,7 @@ function palindroma(parola) {
     }
 }
 
-  if (palindroma(parolaUtente)) {
+  if (Ispalindroma(parolaUtente)) {
         console.log("La parola è palindroma!");
     } else {
         console.log("La parola non è palindroma.");
